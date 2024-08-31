@@ -106,7 +106,7 @@ links:
 
 # reward module 赞赏栏目
 reward:
-  enable: true
+  enable: false
   QR_code: # list your payment QR Code so that users can pay you a coffee 列出你的收款二维码，让用户可以扫描打赏
     Wechat: /img/reward/wechat.jpg # payment name: QRCode's image url 支付方式名称: 二维码图片路径
     Alipay: /img/reward/alipay.jpg
