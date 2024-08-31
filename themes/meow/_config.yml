@@ -78,21 +78,21 @@ page_view:
 # currently support icons of items below, any other links will be display in paw icon 目前支持以下网站图标，其他链接统一用猫爪图标显示
 # Email|邮箱,Github,Twitter,Facebook,Instagram,Tiktok|抖音,Bilibili,Weibo|微博,Mastodon,Wechat|公众号
 contact_info:
-  Email: chan.wj@outlook.com
-  Github: /
-  Twitter: /
-  Facebook: /
+  Email:
+  Github: 
+  Twitter: 
+  Facebook: 
   Instagram:
-  Tiktok: /
-  Bilibili: /
-  Weibo: /
-  AO3: /
+  Tiktok: 
+  Bilibili: https://space.bilibili.com/1851255796
+  Weibo: https://weibo.com/n/%E5%8F%AF%E7%88%B1%E8%81%94%E7%9B%9F-CuteUnion
+  AO3: 
   Mastodon:
   公众号: '可爱联盟' # format:'account' 配置格式:'公众号名称'
 
 # other links to display 其他链接
 links:
-  enable: true
+  enable: false
   links_list:
     hexo-theme-meow: # link name 链接名称
       desc: 本主题的Github仓库 # link description 链接简介

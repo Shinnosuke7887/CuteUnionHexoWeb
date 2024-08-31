@@ -10,11 +10,11 @@
       - for (kw of keywords_list)
         span.about-keywords-tag= kw
 
-    .about-blog-intro
-      | !{ markdown(__('about.about_blog.introduction')) }
+    //- .about-blog-intro
+    //-   | !{ markdown(__('about.about_blog.introduction')) }
 
-    .about-blog-supplement
-      | !{ markdown(__('about.about_blog.supplement')) }
+    //- .about-blog-supplement
+    //-   | !{ markdown(__('about.about_blog.supplement')) }
 
   .about-author
     h1
@@ -91,17 +91,17 @@
               |  #{ links_item }
             span.links-item-desc= theme.links.links_list[links_item].desc
 
-  if theme.reward.enable
-    .about-reward
-      h1
-        i.fa-solid.fa-paw
-        | #{ __('about.reward.title') }
+  //- if theme.reward.enable
+  //-   .about-reward
+  //-     h1
+  //-       i.fa-solid.fa-paw
+  //-       | #{ __('about.reward.title') }
       
-      .about-reward-desc
-        | !{ markdown(__('about.reward.description')) }
+  //-     .about-reward-desc
+  //-       | !{ markdown(__('about.reward.description')) }
       
-      .about-reward-nav
-        - for (reward_item in theme.reward.QR_code)
-          .about-reward-item
-            img.about-reward-img(src= url_for(theme.reward.QR_code[reward_item]), title= reward_item, alt= reward_item)
-            span= reward_item
+  //-     .about-reward-nav
+  //-       - for (reward_item in theme.reward.QR_code)
+  //-         .about-reward-item
+  //-           img.about-reward-img(src= url_for(theme.reward.QR_code[reward_item]), title= reward_item, alt= reward_item)
+  //-           span= reward_item
