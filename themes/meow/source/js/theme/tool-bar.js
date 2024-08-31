@@ -30,7 +30,7 @@ function tocToggle() {
 
 (function setRandomGif(){
   var randomNumber = (Math.floor(Math.random() * 10))%6 + 1;
-  const gif_url = url_for(`/${baseUrlPath}/img/ddkk_gif/${randomNumber}.gif`)
+  const gif_url = `/${baseUrlPath}/img/ddkk_gif/${randomNumber}.gif`;
   document.querySelector("#blog-pic").setAttribute("src", gif_url);
   document.querySelector("#nav-icon").setAttribute("src", gif_url);
 })()
