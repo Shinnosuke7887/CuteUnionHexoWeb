@@ -44,7 +44,7 @@ function backgroundAdapt(){
 }
 
 (function setRandomGif(){
-  var randomNumber = (Math.floor(Math.random() * 10))%25 + 1;
+  var randomNumber = (Math.floor(Math.random() * 100))%25 + 1;
   const gif_url = `/${baseUrlPath}/img/ddkk_gif/${randomNumber}.gif`;
   document.querySelector("#blog-pic").setAttribute("src", gif_url);
   document.querySelector("#nav-icon").setAttribute("src", gif_url);

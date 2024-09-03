@@ -5,3 +5,4 @@
 * 确保你的node版本为v19，尽量跟我们保持一致吧
 * `npm i` 安装依赖
 * `hexo s` 启动服务
+* `hexo new [layout] <title>` 新建一个文章。有四种默认布局：post、page 和 draft 和 fiction，一般我们都是用post
