@@ -1,4 +1,4 @@
-const baseUrlPath = 'CuteUnionHexoWeb';
+const baseUrlPath = ''; //'/CuteUnionHexoWeb';
 
 window.onscroll = function() {
   'use strict';
@@ -36,9 +36,9 @@ function tocToggle() {
 
 function backgroundAdapt(){
   const screenRatio = window.innerHeight / window.innerWidth;
-  let background_url = `url(/${baseUrlPath}/img/background.jpg)`;
+  let background_url = `url(${baseUrlPath}/img/background.jpg)`;
   if (screenRatio >= 1){
-    background_url = `url(/${baseUrlPath}/img/background_mobile.jpg)`
+    background_url = `url(${baseUrlPath}/img/background_mobile.jpg)`
   }
   document.getElementsByTagName("html")[0].style.backgroundImage = background_url;
 }
