@@ -1,0 +1,12 @@
+.board-container
+  .board-blog
+    img.board-pic(src= url_for(theme.msg_board.left_img))
+    //- h1
+    //-   i.fa-solid
+    //-   | #{ __('message_board.title') }
+    img.board-pic(src= url_for(theme.msg_board.middle_img))
+    img.board-pic(src= url_for(theme.msg_board.right_img))
+  h1.tips
+    | #{ __('message_board.tips') }
+
+script(src="https://utteranc.es/client.js", repo="Shinnosuke7887/CuteUnionHexoWeb", issue-term="pathname", theme="github-light", crossorigin="anonymous", async)
