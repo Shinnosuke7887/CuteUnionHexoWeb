@@ -19,10 +19,17 @@ menu:
   categories:
   tags:
   about: /about
+  msg_board: /msg_board
 
 # search function 搜索功能
 search:
   enable: true
+
+# 留言板
+msg_board:
+  left_img: /img/message_board_left.jpg
+  middle_img: /img/message_board_middle.jpg.jpg
+  right_img: /img/message_board_right.jpg
 
 # site register info 网站备案信息（比如ICP）
 register_info:

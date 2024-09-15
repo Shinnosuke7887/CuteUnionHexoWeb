@@ -9,6 +9,7 @@ menu:
   home: Home
   toc: TOC
   settings: Settings
+  msg_board: message board
 
 # site information
 # only affects on page display and does not affect webpage meta
@@ -106,3 +107,7 @@ about:
     # description of reward for the author or the site, Markdown available
     description: If this theme is helpful to you, welcome to scan the QR Code to reward the author. Your encouragement and support are very important for my continuous creation. Thank you!&#128151;
 
+# 'message board'
+message_board:
+  title: message board
+  tips: 由于网站部署在国外，下方的留言框可能出现加载失败。

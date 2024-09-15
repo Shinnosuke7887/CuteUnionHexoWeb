@@ -9,6 +9,7 @@ menu:
   home: 主页
   toc: 目录
   settings: 设置
+  msg_board: 留言板
 
 # 网站信息
 # 此处的配置仅影响页内展示，不影响网页meta
@@ -107,3 +108,7 @@ about:
     # 关于赞赏支持的说明，支持Markdown语法
     description: 如果这个主题对您有帮助，欢迎扫码赞赏作者~各位的鼓励与支持是我持续创作的动力，谢谢&#128151;
 
+# 'message board'
+message_board:
+  title: 留言板
+  tips: 由于网站部署在国外，下方的留言框可能出现加载失败。
