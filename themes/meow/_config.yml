@@ -15,6 +15,7 @@ author_pic: /img/author.jpg
 # archives/categories/tags will use the path in root config automatically 归档、分类以及标签页使用根目录配置中的路径
 # other custom pages require path configuration manually 其他自定义页面需要配置页面路径
 menu:
+  introduce: /2024/08/26/可爱联盟宇宙事件观/
   archives:
   categories:
   tags:
